@@ -1,0 +1,7 @@
+matplotlib==3.8.1
+numpy==2.0.0
+openpyxl==3.1.5
+pandas==2.2.2
+scipy==1.14.0
+tqdm==4.66.4
+typing_extensions==4.12.2
