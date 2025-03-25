@@ -214,7 +214,7 @@ class Flight(VexNode):
 
 class GateGraph:
     """
-    没有的类，以前的代码残余。删的话影响太多了，就不删了。（屎山代码
+    没用的类，以前的代码残余。删的话影响太多了，就不删了。
     """
 
     def __init__(self, gate: Gate):
@@ -223,7 +223,7 @@ class GateGraph:
         Parameters
         ----------
         gate: Gate
-            机位图与机位是一体的，因此在初始化机位图时，需传入一个机位进行绑定。
+            
 
         """
         self.gate = gate
