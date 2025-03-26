@@ -54,7 +54,7 @@ def get_gates(gate_num = 0, start_id = 0):
     if gate_num > 300 or gate_num < 1:
         raise(ValueError("机位数量过于苛刻"))
 
-    e = int(gate_num * 0.2) # F属性机位的数量
+    e = int(gate_num * 0.2) # E属性机位的数量
     c = gate_num - e # C属性机位的数量
 
     # 属性列表
