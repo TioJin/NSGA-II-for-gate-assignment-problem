@@ -1,6 +1,3 @@
-"""
-该模块负责为机位划分区域，同时为不同区域设置不同的奖励值。
-"""
 import copy
 import random
 import sys
