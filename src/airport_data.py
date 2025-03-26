@@ -36,7 +36,7 @@ def get_ordinary_gates(num, start_id=0, size=None):
     return __generate_gates(cls=Gate, num=num, start_id=start_id, name="-OG", size=size)
 
 
-def get_gates(gate_num = 0, start_id = 0):
+def get_gates(gate_num = 0, start_id = 0) -> list[Gate]:
     """
     生成指定数量的各类机位。
 
@@ -67,7 +67,7 @@ def get_gates(gate_num = 0, start_id = 0):
     return ordinary_gates_list
 
 
-def get_flights(num, start_id=0):
+def get_flights(num, start_id=0) -> list[Flight]:
     flights = list[Flight]()
     # 各大小占比，c型机占百分之80以上。
     a = int(num * 0.02)
