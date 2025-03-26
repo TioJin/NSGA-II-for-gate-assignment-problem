@@ -16,10 +16,10 @@ from .util.time_machine import TimeMachine
 from .util import flight_utils
 
 DATA_NUM = 100000
-NEAR_GATE_NUM = 20 # 近机位数目
-REMOTE_GATE_NUM = 20 # 远机位数目
+NEAR_GATE_NUM = 20 # 近机位数量
+REMOTE_GATE_NUM = 20 # 远机位数量
 
-FLIGHT_NUM = 150 # 航班数目。
+FLIGHT_NUM = 150 # 航班数量。
 
 NEAR_GATE = "近机位"
 REMOTE_GATE = "远机位"
